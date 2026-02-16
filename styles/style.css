@@ -13,4 +13,55 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
+  padding: 100px 0;
+  color: var(--accent-color);
+  font-family: var(--main-font-family);
+  font-variation-settings: 'wght' var(--main-font-weight, 400);
+  background-image: var(--body-pattern);
+  background-attachment: fixed;
+  background-color: var(--bg-color);
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page__section {
+  inline-size: var(--content-width);
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: var(--bg-color);
+  min-height: var(--content-header-height);
+  outline: 2px solid var(--accent-color);
+ 
+}
+
+.header__logo {
+  font-family: var(--accent-font-family);
+  font-size: var(--header-logo-size);
+  font-weight: var(--header-font-weight);
+}
+
+
+.header__title {
+  font-family: var(--accent-font-family);
+  font-size: var(--header-title-size);
+  font-weight: var(--header-font-weight);
+}
+
+.card {
+  margin-block-start: 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  flex-direction: column;
+  background-color: var(--bg-color);
+  outline: 2px solid var(--accent-color);
+ 
 }
