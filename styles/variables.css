@@ -7,12 +7,19 @@
     --title-font-weight: 715;
     --header-font-weight: 400;
     --main-font-size: 18px;
+    --main-line-height: 117%;
+
+  
     
     --button-font-size: 14px;
     --button-line-height: 90%;
     
+    
     --accent-color: #000;
     --bg-color: #fff;
+    
+    --main-color: #000;
+    --button-color: #fff;
     
     --body-pattern: 
         repeating-linear-gradient(90deg, #d3d3d3 0 2px, rgb(0 0 0 / 0) 2px 4px),
@@ -27,6 +34,12 @@
 
     --img-width: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
     --img-height: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
+
+    --save-button-inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
+
+    --dialog__save-width: clamp(21.438rem, 0.939vw + 21.217rem, 22.063rem);
+
+
 }
 
 /*
