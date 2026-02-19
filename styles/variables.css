@@ -39,6 +39,8 @@
 
     --dialog__save-width: clamp(21.438rem, 0.939vw + 21.217rem, 22.063rem);
 
+    --contour-color: var(--accent-color);
+    --animation-fill-color: red;
 
 }
 

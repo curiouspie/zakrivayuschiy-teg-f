@@ -156,20 +156,25 @@
 .card__controls {
   display: flex;
   padding: 0 25px 25px;
-  gap: 12px;
+  gap: 7px;
   align-self: flex-end;
   
 }
 
-.card-icon-button {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.card-icon-button {  
   background-color: transparent;
-  border: none;
   cursor: pointer;
-  width: 39px;
-  height: 36px;
+  padding: 0;
+  transition: border 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.card-icon-button:focus {
+  outline: none;
+}
+
+.card-icon-button:focus-visible {
+  border-color: var(--accent-color);  
 }
 
 .card__like-button {
@@ -182,19 +187,11 @@
   background-color: transparent;
   border: 2px solid var(--accent-color);
   cursor: pointer;
-  height: 38px;
   width: 130px;
 }
 
-.card__icon-button:focus {
-  outline: none;
-}
-
-.card__icon-button:focus-visible {
-  border-color: #000;
-}
-
-.button {  
+.button {
+  padding: 0;
   color: var(--main-color);
   position: relative;
   overflow: hidden;
@@ -221,8 +218,21 @@
 }
 
 .button:focus-visible {
-  box-shadow: 2px 2px #000;
+  box-shadow: 2px 2px var(--accent-color);
   transition: box-shadow 0.3s ease;
+}
+
+.button__text {
+  font-family: var(--accent-font-family);
+  line-height: var(--button-line-height);
+  font-size: var(--button-font-size);  
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.button:hover .button__text {
+  color: var(--button-color);
 }
 
 .save-button {
@@ -260,18 +270,6 @@
   height: 39px;
 }
 
-.button__text {
-  font-family: var(--accent-font-family);
-  line-height: var(--button-line-height);
-  font-size: var(--button-font-size);  
-  position: relative;
-  z-index: 1;
-  text-align: center;
-}
-
-.button:hover .button__text {
-  color: var(--button-color);
-}
 
 .save-button__text {
   @media (width <= 375px) {
@@ -327,5 +325,14 @@
   line-height: 150%;
   font-size: var(--button-font-size);
   font-weight: var(--header-font-weight);
+}
+
+.like-icon {
+  display: block;
+  transform-origin: center;
+}
+
+.sparks {
+  opacity: 0;
 }
 
