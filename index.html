@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="./styles/globals.css" />
     <link rel="stylesheet" href="./styles/style.css" />
     <link rel="stylesheet" href="./styles/animations.css" />
-    <link rel="icon" href="./svg/favicon.svg" sizes="any" />
+    <link rel="icon" href="./images/favicon.ico" sizes="any" />
     <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="./images/mobile-icon.png" />
   </head>
@@ -19,7 +19,6 @@
       <h1 class="header__title">закрывающий тег</h1>
     </header>
     <main class="content">
-
       <article class="card page__section page__card">
         <h2 class="card__title">
           Фритрек и нулевой спринт: Подготовка к работе
@@ -27,10 +26,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-brightness"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-1.jpg"
+            alt="Деревянный настил над спокойным лесным озером"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Preparation&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -38,13 +37,13 @@
             основами и настроиться на учёбу. И, возможно, подумать, как новые
             знания могут повлиять на ваше будущее.
           </p>
-          <p>Место для ваших воспоминаний о начале обучения.</p>
+          <p>
+            Я стоял на берегу новой профессии и понимал: впереди длинный путь,
+            но он начинается с первого шага.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -74,12 +73,11 @@
                 />
               </g>
 
-                <path
-                  class="sparks"
-                  fill="var(--animation-fill-color)"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -93,10 +91,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-contrast"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-2.jpg"
+            alt="Ракета, взлетающая из раскрытой книги"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Start&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -106,13 +104,15 @@
             ощущением скрываются более глубокие вопросы: с чего начать? а вдруг
             будет слишком сложно? что, если я не справлюсь?
           </p>
-          <p>Место для ваших воспоминаний о начале первого спринта.</p>
+          <p>
+            Первые уроки были как запуск ракеты из пустой книги. Я открывал
+            HTML, CSS — и чувствовал, как знания поднимают меня выше. Всё было
+            новым, ярким, немного хаотичным, но невероятно вдохновляющим. Я
+            впервые увидел, как строки кода превращаются в что‑то настоящее.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -122,27 +122,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -156,10 +160,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-blur"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-3.jpg"
+            alt="Белый пазл с недостающими деталями на чёрном фоне"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Doubts&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -167,13 +171,15 @@
             могла быстро померкнуть и смениться ожиданием провала. Или вы,
             наоборот, могли вдохновиться успехами и поверить в себя.
           </p>
-          <p>Место для ваших воспоминаний об окончании первого спринта.</p>
+          <p>
+            Иногда я смотрел на свой код как на недособранный пазл. Где‑то не
+            хватало кусочка, где‑то цвета не совпадали. Ошибки раздражали, но
+            именно они показывали, чего мне не хватает. Я учился не бояться
+            пробелов — они становились точками роста.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -183,27 +189,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -217,10 +227,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-opacity"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-4.jpg"
+            alt="Пузырьковый уровень с центровкой пузырька"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Ideal&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -230,13 +240,16 @@
             подвержены перфекционизму и вместо того, чтобы сделать идеально,
             старались просто сделать.
           </p>
-          <p>Место для ваших воспоминаний о начале второго спринта.</p>
+          <p>
+            Потом пришёл момент, когда я начал замечать каждую неровность.
+            Хотелось, чтобы всё было идеально ровно — как пузырёк уровня,
+            стоящий точно по центру. Я переписывал стили, выравнивал блоки,
+            искал пиксель‑перфект. Иногда это утомляло, но я понимал: так
+            формируется профессиональный взгляд.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -246,27 +259,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -280,10 +297,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-grayscale"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-5.jpg"
+            alt="Человек карабкается по валуну, другие страхуют"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Support&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -294,13 +311,15 @@
             Осваивать что-то новое легче, когда рядом есть единомышленники, не
             правда ли?
           </p>
-          <p>Место для ваших воспоминаний об окончании второго спринта.</p>
+          <p>
+            В какой‑то момент я понял, что один далеко не уйду. Как скалолаз,
+            которого страхуют товарищи, я чувствовал поддержку сокурсников и
+            наставников. Мы обсуждали задачи, делились решениями, помогали друг
+            другу не сорваться. Это давало уверенность.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -310,27 +329,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -344,10 +367,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-saturate"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-6.jpg"
+            alt="Доска с разноцветными стикерами и кнопками"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Strategies&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -355,13 +378,16 @@
             вам могло показаться, что решения просто иссякли. Значит, пришло
             время посмотреть на задачу под другим углом.
           </p>
-          <p>Место для ваших воспоминаний о начале третьего спринта.</p>
+          <p>
+            Когда прямой путь не работал, я учился искать обходные. Мой монитор
+            был завален «стикерами» — заметками, идеями, подсказками. Я пробовал
+            разные подходы, экспериментировал, находил нестандартные решения.
+            Именно здесь я понял: вёрстка — это не только правила, но и
+            творчество.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -371,27 +397,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -405,10 +435,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-sepia"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-7.jpg"
+            alt="Световой бокс с фразой “You are enough”"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Enough&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -418,13 +448,15 @@
             В такие моменты очень нужна концентрация. Вспомните, откуда вы её
             черпали.
           </p>
-          <p>Место для ваших воспоминаний об окончании третьего спринта.</p>
+          <p>
+            Бывали дни, когда хотелось всё бросить. Я уже прошёл слишком много,
+            чтобы остановиться. Я учился принимать свои ошибки, не сравнивать
+            себя с другими и двигаться дальше, даже если прогресс казался
+            медленным.
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -434,27 +466,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
@@ -468,10 +504,10 @@
         <div class="card__image-container">
           <img
             class="gallery-image filter-multiply"
-            src="./images/image-1.png"
-            alt="Описание изображения"
+            src="./images/image-8.jpg"
+            alt="Монокуляр на пирсе с видом на море"
           />
-          <span class="watermark"> &lt;/HTML&gt; </span>
+          <span class="watermark"> &lt;/Looking ahead&gt; </span>
         </div>
         <div class="card__description">
           <p>
@@ -482,13 +518,14 @@
             это тот случай, когда важен сам процесс познания. Ведь часто путь —
             и есть результат.
           </p>
-          <p>Место, чтобы остановиться, подумать и написать, что вы чувствуете в этой точке пути.</p>
+          <p>
+            Сегодня я стою на пирсе и смотрю вдаль — как через монокуляр,
+            направленный на море. Я вижу свой путь в профессии. Я понимаю, что
+            впереди ещё много работы...
+          </p>
         </div>
         <div class="card__controls">
-          <button
-            type="button"
-            class="card__icon-button"
-          >
+          <button type="button" class="card__icon-button">
             <svg
               class="like-icon"
               xmlns="http://www.w3.org/2000/svg"
@@ -498,27 +535,31 @@
               viewBox="0 0 39 36"
               aria-hidden="true"
             >
-              
+              <g class="heart">
                 <path
-                  fill="#000"
+                  class="contour"
+                  fill="var(--contour-color)"
                   d="M12 6H9v3h3zm3 0h-3v3h3zM9 9H6v3h3zm0 3H6v3h3zm0 3H6v3h3zm9-9h-3v3h3zm-6 12H9v3h3zm3 3h-3v3h3zm3 3h-3v3h3zm9-18h3v3h-3zm-3 0h3v3h-3zm6 3h3v3h-3zm0 3h3v3h-3zm0 3h3v3h-3zm-9-9h3v3h-3zm6 12h3v3h-3zm-3 3h3v3h-3zm-3 3h3v3h-3zm0 3h-3v3h3zm0-18h-3v3h3z"
                 />
 
                 <path
-                  fill="red"
+                  class="main-body"
+                  fill="transparent"
                   d="M12 9H9v3h3zm3 3h-3v3h3zm3-3h-3v3h3zm-6 6H9v3h3zm3 0h-3v3h3zm0 3h-3v3h3zm3-6h-3v3h3zm0 9h-3v3h3zm0-3h-3v3h3zm9-9h3v3h-3zm-3 0h3v3h-3zm3 3h3v3h-3zm-3 0h3v3h-3zm-3-3h3v3h-3zm6 6h3v3h-3zm-3 0h3v3h-3zm0 3h3v3h-3zm-3-6h3v3h-3zm0 9h3v3h-3zm0-3h3v3h-3zm0 3h-3v3h3zm0 3h-3v3h3z"
                 />
 
                 <path
-                  fill="#fff"
+                  class="core"
+                  fill="#transparent"
                   d="M18 15h-3v3h3zm3 0h3v3h-3zm0 0h-3v3h3zm0-3h-3v3h3zm0 6h-3v3h3z"
                 />
+              </g>
 
-                <path
-                  fill="red"
-                  d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
-                />
-              
+              <path
+                class="sparks"
+                fill="var(--animation-fill-color)"
+                d="M36 13h3v3h-3zm-9 14h3v3h-3zm-9 6h3v3h-3zm-9-6h3v3H9zM24 0h3v3h-3zm9 3h3v3h-3zM3 3h3v3H3zm9-3h3v3h-3zM0 13h3v3H0z"
+              />
             </svg>
           </button>
           <button type="button" class="card__like-button button">
