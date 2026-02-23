@@ -1,7 +1,7 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
 :root {
-  --main-font-family: "Inter", sans-serif;
-  --accent-font-family: "PressStart2P-Regular", monospace;
+  --main-font-family: "Inter-Variable", sans-serif;
+  --accent-font-family: "PressStart2P", monospace;
 
   --main-font-weight: 410;
   --title-font-weight: 715;
@@ -27,15 +27,12 @@
   --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 
-  --content-width: clamp(375px, 30.5vw + 261px, 700px);
+  --content-width: clamp(23.1875rem, 0rem + 100vw, 43.75rem);
   --content-header-height: clamp(327px, 3.85vw + 313px, 368px);
-
-  --img-width: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
-  --img-height: clamp(23.188rem, 30.516vw + 16.035rem, 43.5rem);
 
   --save-button-inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
 
-  --dialog__save-width: clamp(21.438rem, 0.939vw + 21.217rem, 22.063rem);
+  --dialog-save-width: clamp(21.438rem, 0.939vw + 21.217rem, 22.063rem);
 
   --contour-color: var(--accent-color);
   --animation-fill-color: red;
