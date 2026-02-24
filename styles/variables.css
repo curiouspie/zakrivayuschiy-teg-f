@@ -27,12 +27,16 @@
   --header-logo-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   --header-title-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
 
-  --content-width: clamp(23.1875rem, 0rem + 100vw, 43.75rem);
+  --content-width: clamp(23.1875rem, 100%, 43.75rem);
   --content-header-height: clamp(327px, 3.85vw + 313px, 368px);
 
   --save-button-inline-size: clamp(19.125rem, 18.4868rem + 2.723vw, 20.9375rem);
 
-  --dialog-save-width: clamp(21.438rem, 0.939vw + 21.217rem, 22.063rem);
+  --dialog-save-width: clamp(
+    341px,
+    calc(341px + 12 * ((100vw - 375px) / 1065)),
+    353px
+  );
 
   --contour-color: var(--accent-color);
   --animation-fill-color: red;
